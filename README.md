@@ -34,6 +34,12 @@ Open `index.html` in a browser to browse every screen, or open any file under `m
 **Sports – Phone**  
 <img src="mockups/sports/phone.png" width="220" alt="Sports – Phone">
 
+**Event details – TV**  
+<img src="mockups/sports/event-tv.png" width="640" alt="Event details – TV">
+
+**Event details – Phone**  
+<img src="mockups/sports/event-phone.png" width="220" alt="Event details – Phone">
+
 ## Movies
 
 **Movies – TV**  
