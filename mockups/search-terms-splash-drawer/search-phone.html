@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>VantaView – Search (Phone)</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+<meta name="viewport" content="width=device-width"><style>html{background:#000}body{margin:0;display:flex;justify-content:center}</style></head>
+<body>
+
+
+<div style="position:relative;width:390px;height:844px;box-sizing:border-box;background:#07080F;color:#F2F4FA;font-family:Inter,system-ui,sans-serif;overflow:hidden;padding:20px 16px 0;display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;align-items:center;gap:8px">
+<button aria-label="Back" style="width:44px;height:44px;flex:none;border-radius:50%;border:1px solid #2C3150;background:#12141F;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></button>
+<label style="position:relative;flex:1;display:block"><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Search</span><input value="dex" style="width:100%;height:48px;box-sizing:border-box;border-radius:24px;border:2px solid #14E0E0;background:#12141F;color:#F2F4FA;font:700 16px Inter,system-ui,sans-serif;padding:0 48px 0 16px"><button aria-label="Voice search" style="position:absolute;right:4px;top:4px;width:40px;height:40px;border-radius:50%;border:0;background:linear-gradient(135deg,#7B5CFF,#14E0E0);display:flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#07080F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a3 3 0 00-3 3v6a3 3 0 006 0V6a3 3 0 00-3-3zM5 11a7 7 0 0014 0M12 18v3"></path></svg></button></label>
+</div>
+<div role="tablist" aria-label="Result type" style="display:flex;gap:8px;overflow:hidden;margin:0 -16px;padding:0 16px">
+<button role="tab" aria-selected="true" style="flex:none;height:40px;padding:0 14px;border-radius:20px;border:0;background:#F2F4FA;color:#07080F;font:800 14px Inter,system-ui,sans-serif">All</button>
+<button role="tab" aria-selected="false" style="flex:none;height:40px;padding:0 14px;border-radius:20px;border:1px solid #2C3150;background:#12141F;color:#F2F4FA;font:600 14px Inter,system-ui,sans-serif">Channels</button>
+<button role="tab" aria-selected="false" style="flex:none;height:40px;padding:0 14px;border-radius:20px;border:1px solid #2C3150;background:#12141F;color:#F2F4FA;font:600 14px Inter,system-ui,sans-serif">Movies</button>
+<button role="tab" aria-selected="false" style="flex:none;height:40px;padding:0 14px;border-radius:20px;border:1px solid #2C3150;background:#12141F;color:#F2F4FA;font:600 14px Inter,system-ui,sans-serif">Series</button>
+<button role="tab" aria-selected="false" style="flex:none;height:40px;padding:0 14px;border-radius:20px;border:1px solid #2C3150;background:#12141F;color:#F2F4FA;font:600 14px Inter,system-ui,sans-serif">Actors</button>
+</div>
+<section style="display:flex;flex-direction:column;gap:8px">
+<h2 style="margin:0;font-size:16px;font-weight:700">Channels</h2>
+<button style="height:64px;border:0;border-radius:12px;background:#12141F;color:#F2F4FA;padding:0 10px;display:flex;align-items:center;gap:10px;text-align:left"><span style="width:42px;height:42px;flex:none;border-radius:8px;background:#1B1E2F;display:flex;align-items:center;justify-content:center;font:800 11px Inter,system-ui,sans-serif;color:#C3C9D8">CH</span><span style="display:flex;flex-direction:column;gap:2px"><span style="font:700 14px Inter,system-ui,sans-serif">[Channel name]</span><span style="font:500 12px Inter,system-ui,sans-serif;color:#9AA3B8">Now: [programme]</span></span></button>
+</section>
+<section style="display:flex;flex-direction:column;gap:8px">
+<h2 style="margin:0;font-size:16px;font-weight:700">Movies &amp; series</h2>
+<div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:10px">
+
+<span style="position:relative;aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,#3B2A7A,#12141F)"><span style="position:absolute;left:6px;top:6px;background:rgba(7,8,15,.8);font:700 10px Inter,system-ui,sans-serif;letter-spacing:.05em;padding:2px 6px;border-radius:5px">SERIES</span></span>
+
+<span style="position:relative;aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,#183C6E,#12141F)"><span style="position:absolute;left:6px;top:6px;background:rgba(7,8,15,.8);font:700 10px Inter,system-ui,sans-serif;letter-spacing:.05em;padding:2px 6px;border-radius:5px">MOVIE</span></span>
+
+<span style="position:relative;aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,#0F4C55,#12141F)"><span style="position:absolute;left:6px;top:6px;background:rgba(7,8,15,.8);font:700 10px Inter,system-ui,sans-serif;letter-spacing:.05em;padding:2px 6px;border-radius:5px">MOVIE</span></span>
+
+<span style="position:relative;aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,#14503A,#12141F)"><span style="position:absolute;left:6px;top:6px;background:rgba(7,8,15,.8);font:700 10px Inter,system-ui,sans-serif;letter-spacing:.05em;padding:2px 6px;border-radius:5px">SERIES</span></span>
+
+<span style="position:relative;aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,#5A4A12,#12141F)"><span style="position:absolute;left:6px;top:6px;background:rgba(7,8,15,.8);font:700 10px Inter,system-ui,sans-serif;letter-spacing:.05em;padding:2px 6px;border-radius:5px">MOVIE</span></span>
+
+<span style="position:relative;aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,#5C2A14,#12141F)"><span style="position:absolute;left:6px;top:6px;background:rgba(7,8,15,.8);font:700 10px Inter,system-ui,sans-serif;letter-spacing:.05em;padding:2px 6px;border-radius:5px">MOVIE</span></span>
+
+</div>
+</section>
+<section style="display:flex;flex-direction:column;gap:8px">
+<h2 style="margin:0;font-size:16px;font-weight:700">Actors</h2>
+<div style="display:flex;gap:16px">
+
+<span style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:60px;height:60px;border-radius:50%;background:linear-gradient(160deg,#3B2A7A,#1A1D2E);border:1px solid #2C3150"></span><span style="font:600 12px Inter,system-ui,sans-serif">[Actor]</span></span>
+
+<span style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:60px;height:60px;border-radius:50%;background:linear-gradient(160deg,#0F4C55,#1A1D2E);border:1px solid #2C3150"></span><span style="font:600 12px Inter,system-ui,sans-serif">[Actor]</span></span>
+
+<span style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:60px;height:60px;border-radius:50%;background:linear-gradient(160deg,#5C2A14,#1A1D2E);border:1px solid #2C3150"></span><span style="font:600 12px Inter,system-ui,sans-serif">[Actor]</span></span>
+
+</div>
+</section>
+</div>
+
+
+
+
+</body></html>

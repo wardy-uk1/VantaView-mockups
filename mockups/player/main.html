@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>VantaView – Live TV player (TV)</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+<meta name="viewport" content="width=device-width"><style>html{background:#000}body{margin:0;display:flex;justify-content:center}</style></head>
+<body>
+
+
+<div style="position:relative;width:1280px;height:720px;box-sizing:border-box;background:linear-gradient(135deg,#1E1546 0%,#0E3A4A 55%,#12141F 100%);color:#F2F4FA;font-family:Inter,system-ui,sans-serif;overflow:hidden">
+<span aria-hidden="true" style="position:absolute;left:0;right:0;top:250px;text-align:center;color:rgba(242,244,250,.35);font-size:16px">Live channel, paused</span>
+<div aria-hidden="true" style="position:absolute;left:0;right:0;top:0;height:140px;background:linear-gradient(180deg,rgba(7,8,15,.85),rgba(7,8,15,0))"></div>
+<div aria-hidden="true" style="position:absolute;left:0;right:0;bottom:0;height:330px;background:linear-gradient(180deg,rgba(7,8,15,0),rgba(7,8,15,.95) 45%)"></div>
+<div style="position:absolute;left:48px;right:48px;top:32px;display:flex;align-items:center;gap:14px">
+<button aria-label="Back" style="width:52px;height:52px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.8);display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></button>
+<span style="margin-left:auto;font-size:22px;font-weight:700">21:12</span>
+</div>
+<div style="position:absolute;left:48px;right:48px;bottom:30px;display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:center;gap:16px">
+<span style="width:64px;height:64px;flex:none;border-radius:14px;background:#1B1E2F;border:1px solid #2C3150;display:flex;align-items:center;justify-content:center;font:800 16px Inter,system-ui,sans-serif;color:#C3C9D8">C3</span>
+<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:4px">
+<span style="display:flex;align-items:center;gap:10px"><span style="color:#9AA3B8;font-size:16px;font-weight:700">103</span><span style="font-size:18px;font-weight:700">Channel 3 HD</span><span style="background:#2C3150;color:#F2F4FA;font-size:12px;font-weight:800;letter-spacing:.06em;padding:3px 8px;border-radius:6px">2 MIN BEHIND LIVE</span></span>
+<span style="font-size:28px;font-weight:800">Evening Documentary</span>
+</div>
+<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px"><span style="color:#9AA3B8;font-size:13px;font-weight:700;letter-spacing:.1em">NEXT</span><span style="font-size:17px"><span style="color:#14E0E0;font-weight:700">21:00</span> Quiz Night</span></div>
+</div>
+<div style="display:flex;align-items:center;gap:14px">
+<span style="font-size:15px;color:#C3C9D8;width:44px">20:00</span>
+<div style="position:relative;flex:1;height:8px;border-radius:4px;background:rgba(242,244,250,.18)">
+<span style="position:absolute;left:0;top:0;height:8px;width:72%;border-radius:4px;background:rgba(242,244,250,.35)"></span>
+<span style="position:absolute;left:0;top:0;height:8px;width:68%;border-radius:4px;background:linear-gradient(90deg,#7B5CFF,#2F7BFF,#14E0E0)"></span>
+<span aria-hidden="true" style="position:absolute;left:68%;top:-6px;width:20px;height:20px;margin-left:-10px;border-radius:50%;background:#F2F4FA;box-shadow:0 0 12px rgba(20,224,224,.8)"></span>
+<span aria-hidden="true" style="position:absolute;left:72%;top:-8px;width:3px;height:24px;margin-left:-1px;background:#FF3B4E"></span>
+</div>
+<span style="font-size:15px;color:#C3C9D8;width:44px;text-align:right">21:00</span>
+</div>
+<div style="display:flex;align-items:flex-end;gap:10px">
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Prev channel" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6v12l-9-6zM6 6v12"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Prev channel</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Back 10s" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 108-8H8M8 1L5 4l3 3"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Back 10s</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:96px">
+<button aria-label="Play" style="width:76px;height:76px;border-radius:50%;border:0;background:#F2F4FA;box-shadow:0 0 0 3px #07080F, 0 0 0 6px #14E0E0, 0 0 24px rgba(20,224,224,.5);display:flex;align-items:center;justify-content:center"><svg width="30" height="30" viewBox="0 0 24 24" fill="#07080F" stroke="#07080F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5l11 7-11 7z"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#F2F4FA;white-space:nowrap">Play</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Forward 10s" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 11-8-8h4M16 1l3 3-3 3"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Forward 10s</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Go live" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 10a2 2 0 100 4 2 2 0 000-4zM7.5 7.5a6 6 0 000 9M16.5 7.5a6 6 0 010 9"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Go live</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Next channel" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6v12l9-6zM18 6v12"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Next channel</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Record" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="#FF3B4E" stroke="#FF3B4E" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7a5 5 0 100 10 5 5 0 000-10z"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Record</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Channels" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Channels</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Audio &amp; subtitles" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18v12H3zM7 14h4M13 14h4"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Audio &amp; subtitles</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:106px">
+<button aria-label="Picture size" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);box-shadow:none;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Picture size</span>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+</body></html>

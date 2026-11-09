@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>VantaView – Series player with Skip intro (TV)</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+<meta name="viewport" content="width=device-width"><style>html{background:#000}body{margin:0;display:flex;justify-content:center}</style></head>
+<body>
+
+
+<div style="position:relative;width:1280px;height:720px;box-sizing:border-box;background:linear-gradient(135deg,#0E3A4A 0%,#183C6E 50%,#2A1446 100%);color:#F2F4FA;font-family:Inter,system-ui,sans-serif;overflow:hidden">
+<span aria-hidden="true" style="position:absolute;left:0;right:0;top:240px;text-align:center;color:rgba(242,244,250,.35);font-size:16px">Episode playing · opening titles</span>
+<div aria-hidden="true" style="position:absolute;left:0;right:0;top:0;height:150px;background:linear-gradient(180deg,rgba(7,8,15,.85),rgba(7,8,15,0))"></div>
+<div aria-hidden="true" style="position:absolute;left:0;right:0;bottom:0;height:300px;background:linear-gradient(180deg,rgba(7,8,15,0),rgba(7,8,15,.95) 45%)"></div>
+<div style="position:absolute;left:48px;right:48px;top:32px;display:flex;align-items:center;gap:16px">
+<button aria-label="Back" style="width:52px;height:52px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.8);display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></button>
+<div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:22px;font-weight:800">[Series title]</span><span style="color:#C3C9D8;font-size:16px">S2 E4 · [Episode title]</span></div>
+<span style="margin-left:auto;font-size:22px;font-weight:700">21:14</span>
+</div>
+<div style="position:absolute;right:48px;bottom:212px;padding:3px;border-radius:30px;background:linear-gradient(90deg,#7B5CFF,#2F7BFF,#14E0E0,#19E57A,#FFC81A,#FF5A14);box-shadow:0 0 26px rgba(20,224,224,.45)"><button style="height:54px;padding:0 28px;border:0;border-radius:27px;background:#F2F4FA;color:#07080F;font:800 18px Inter,system-ui,sans-serif;display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="#07080F" aria-hidden="true"><path d="M5 5l9 7-9 7zM14 5l9 7-9 7z"></path></svg>Skip intro</button></div>
+<div style="position:absolute;left:48px;right:48px;bottom:30px;display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;align-items:center;gap:14px">
+<span style="font-size:15px;color:#C3C9D8;width:54px">01:42</span>
+<div style="position:relative;flex:1;height:8px;border-radius:4px;background:rgba(242,244,250,.18)">
+<span style="position:absolute;left:0;top:0;height:8px;width:12%;border-radius:4px;background:rgba(242,244,250,.35)"></span>
+<span style="position:absolute;left:0;top:0;height:8px;width:3.4%;border-radius:4px;background:linear-gradient(90deg,#7B5CFF,#14E0E0)"></span>
+<span aria-hidden="true" style="position:absolute;left:3.4%;top:-6px;width:20px;height:20px;margin-left:-10px;border-radius:50%;background:#F2F4FA"></span>
+</div>
+<span style="font-size:15px;color:#C3C9D8;width:54px;text-align:right">49:30</span>
+</div>
+<div style="display:flex;align-items:flex-end;gap:12px">
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Back 10s" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 108-8H8M8 1L5 4l3 3"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Back 10s</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Pause" style="width:72px;height:72px;border-radius:50%;border:0;background:#F2F4FA;display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="28" height="28" viewBox="0 0 24 24" fill="#07080F" stroke="#07080F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 5h3v14H7zM14 5h3v14h-3z"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Pause</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Forward 10s" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 11-8-8h4M16 1l3 3-3 3"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Forward 10s</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Next episode" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6v12l9-6zM18 6v12"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Next episode</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Episodes" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v4H4zM4 11h16v4H4zM4 17h10"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Episodes</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Speed" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA">1×</button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Speed</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Audio &amp; subtitles" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18v12H3zM7 14h4M13 14h4"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Audio &amp; subtitles</span>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:110px">
+<button aria-label="Picture size" style="width:58px;height:58px;border-radius:50%;border:1px solid #2C3150;background:rgba(18,20,31,.85);display:flex;align-items:center;justify-content:center;font:800 15px Inter,system-ui,sans-serif;color:#F2F4FA"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2F4FA" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"></path></svg></button>
+<span style="font:600 13px Inter,system-ui,sans-serif;color:#C3C9D8;white-space:nowrap">Picture size</span>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+</body></html>
