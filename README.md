@@ -174,8 +174,41 @@ Open `index.html` in a browser to browse every screen, or open any file under `m
 **Search – Phone**  
 <img src="mockups/search-terms-splash-drawer/search-phone.png" width="220" alt="Search – Phone">
 
+## Reddit additions
+
+**Catch-up (TV)**  
+<img src="mockups/reddit-additions/main.png" width="640" alt="Catch-up (TV)">
+
+**Catch-up (Phone)**  
+<img src="mockups/reddit-additions/catchup-phone.png" width="220" alt="Catch-up (Phone)">
+
+**Live TV guide · past programme and full description (TV)**  
+<img src="mockups/reddit-additions/guide-catchup.png" width="640" alt="Live TV guide · past programme and full description (TV)">
+
+**Player · channel up/down on the remote (TV)**  
+<img src="mockups/reddit-additions/player-zap.png" width="640" alt="Player · channel up/down on the remote (TV)">
+
+**Movies · info on focus (TV, same for TV Series)**  
+<img src="mockups/reddit-additions/movies-focus.png" width="640" alt="Movies · info on focus (TV, same for TV Series)">
+
+**Sports · My teams and leagues (TV)**  
+<img src="mockups/reddit-additions/sports-following.png" width="640" alt="Sports · My teams and leagues (TV)">
+
+**Sports · Follow teams (Phone)**  
+<img src="mockups/reddit-additions/follow-phone.png" width="220" alt="Sports · Follow teams (Phone)">
+
+**Home · weather by the clock and 5-day forecast (TV)**  
+<img src="mockups/reddit-additions/home-weather.png" width="640" alt="Home · weather by the clock and 5-day forecast (TV)">
+
+**Settings · Sync watch progress with Trakt (TV)**  
+<img src="mockups/reddit-additions/settings-sync.png" width="640" alt="Settings · Sync watch progress with Trakt (TV)">
+
+**Add Playlist · Jellyfin server, after launch (TV)**  
+<img src="mockups/reddit-additions/add-jellyfin.png" width="640" alt="Add Playlist · Jellyfin server, after launch (TV)">
+
 ## Credits
 
 - Free channels list: [Free TV](https://github.com/Free-TV/IPTV), an M3U playlist of free TV channels around the world. Thanks to its maintainers and contributors.
 - Movie and TV information: The Movie Database (TMDB). This product uses the TMDB API but is not endorsed or certified by TMDB.
 - Sports fixtures and results: [TheSportsDB](https://www.thesportsdb.com).
+- Weather: [Open-Meteo](https://open-meteo.com) (CC BY 4.0).
