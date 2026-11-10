@@ -163,6 +163,12 @@ Open `index.html` in a browser to browse every screen, or open any file under `m
 **Add another profile – Phone**  
 <img src="mockups/profiles/phone.png" width="220" alt="Add another profile – Phone">
 
+**Choose an avatar – TV**  
+<img src="mockups/profiles/avatars.png" width="640" alt="Choose an avatar – TV">
+
+**Edit profile · custom avatar – TV**  
+<img src="mockups/profiles/custom-avatar.png" width="640" alt="Edit profile · custom avatar – TV">
+
 ## Search, Terms, Splash & Drawer
 
 **Search – TV**  
@@ -211,6 +217,12 @@ Open `index.html` in a browser to browse every screen, or open any file under `m
 
 **Add Playlist · Jellyfin server, after launch (TV)**  
 <img src="mockups/reddit-additions/add-jellyfin.png" width="640" alt="Add Playlist · Jellyfin server, after launch (TV)">
+
+## Avatars
+
+30 original avatars for the profile picker, in five groups — Animals, Robots & aliens, Cartoon faces, Fantasy & sci-fi and Anime — plus a Custom tile where the user supplies their own image by URL. SVG sources are in [`avatars/`](avatars), named `avatar_<group>_<name>.svg`.
+
+<img src="mockups/profiles/avatars.png" width="640" alt="The avatar picker">
 
 ## Credits
 
