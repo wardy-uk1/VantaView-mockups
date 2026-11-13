@@ -88,6 +88,9 @@ _In the test build_
 **Debrid sign-in code – TV**  
 <img src="mockups/v2/sources/debrid-signin.png" width="640" alt="Debrid sign-in code – TV">
 
+**Choose countries after adding a playlist – TV**  
+<img src="mockups/v2/sources/countries.png" width="640" alt="Choose countries after adding a playlist – TV">
+
 **Sources · Add-ons – Phone**  
 <img src="mockups/v2/sources/addons-phone.png" width="220" alt="Sources · Add-ons – Phone">
 
