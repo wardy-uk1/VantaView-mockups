@@ -4,6 +4,125 @@ Signed-off design mockups for **VantaView**, an IPTV & VOD player for Android ph
 
 Open `index.html` in a browser to browse every screen, or open any file under `mockups/` on its own. TV screens are 1280×720 and phone screens are 390×844. All names, titles and channels shown are placeholders.
 
+
+## V2 mockups
+
+V2 is the current look of the app: one solid violet accent (#6E54E6) in place of the rainbow gradient, with white text on buttons and a violet focus ring on TV. The logo keeps its colours. Screens marked *In the test build* match what's in the latest test APK; *Pages not built yet* show the planned screens in the same style. The V1 mockups further down are kept for reference.
+
+### V2 · Start-up & profiles
+
+_In the test build_
+
+**Terms of use – TV**  
+<img src="mockups/v2/start/terms.png" width="640" alt="Terms of use – TV">
+
+**First launch · Create your profile – TV**  
+<img src="mockups/v2/start/profile-create.png" width="640" alt="First launch · Create your profile – TV">
+
+**Choose profile – TV**  
+<img src="mockups/v2/start/profile-choose.png" width="640" alt="Choose profile – TV">
+
+**Edit profile with Kids & PIN – Phone**  
+<img src="mockups/v2/start/profile-edit-phone.png" width="220" alt="Edit profile with Kids & PIN – Phone">
+
+**Parent PIN – TV**  
+<img src="mockups/v2/start/pin.png" width="640" alt="Parent PIN – TV">
+
+### V2 · Home
+
+_In the test build_
+
+**Home – TV**  
+<img src="mockups/v2/home/home-tv.png" width="640" alt="Home – TV">
+
+**Home – Phone**  
+<img src="mockups/v2/home/home-phone.png" width="220" alt="Home – Phone">
+
+**New season message – TV**  
+<img src="mockups/v2/home/new-season.png" width="640" alt="New season message – TV">
+
+### V2 · Live TV, Movies, Series & Player
+
+_In the test build_
+
+**Live TV channels – TV**  
+<img src="mockups/v2/watch/live-tv.png" width="640" alt="Live TV channels – TV">
+
+**Live TV player – TV**  
+<img src="mockups/v2/watch/player-live.png" width="640" alt="Live TV player – TV">
+
+**Movies from add-ons – TV**  
+<img src="mockups/v2/watch/movies.png" width="640" alt="Movies from add-ons – TV">
+
+**TV Series from add-ons – Phone**  
+<img src="mockups/v2/watch/series-phone.png" width="220" alt="TV Series from add-ons – Phone">
+
+**Movie details with sources – TV**  
+<img src="mockups/v2/watch/movie-details.png" width="640" alt="Movie details with sources – TV">
+
+**Series details with episodes – TV**  
+<img src="mockups/v2/watch/series-details.png" width="640" alt="Series details with episodes – TV">
+
+**Player · debrid preparing – TV**  
+<img src="mockups/v2/watch/player-preparing.png" width="640" alt="Player · debrid preparing – TV">
+
+**Movie player – TV**  
+<img src="mockups/v2/watch/player-vod.png" width="640" alt="Movie player – TV">
+
+### V2 · Sources: playlists, add-ons & debrid
+
+_In the test build_
+
+**Sources · Playlists – TV**  
+<img src="mockups/v2/sources/playlists.png" width="640" alt="Sources · Playlists – TV">
+
+**Sources · Add-ons – TV**  
+<img src="mockups/v2/sources/addons.png" width="640" alt="Sources · Add-ons – TV">
+
+**Add-ons · Restore – TV**  
+<img src="mockups/v2/sources/addons-restore.png" width="640" alt="Add-ons · Restore – TV">
+
+**Sources · Debrid – TV**  
+<img src="mockups/v2/sources/debrid.png" width="640" alt="Sources · Debrid – TV">
+
+**Debrid sign-in code – TV**  
+<img src="mockups/v2/sources/debrid-signin.png" width="640" alt="Debrid sign-in code – TV">
+
+**Sources · Add-ons – Phone**  
+<img src="mockups/v2/sources/addons-phone.png" width="220" alt="Sources · Add-ons – Phone">
+
+### V2 · Pages not built yet
+
+_Planned, designed in the V2 style_
+
+**Search – TV**  
+<img src="mockups/v2/planned/search.png" width="640" alt="Search – TV">
+
+**TV Guide – TV**  
+<img src="mockups/v2/planned/tv-guide.png" width="640" alt="TV Guide – TV">
+
+**Sports – TV**  
+<img src="mockups/v2/planned/sports.png" width="640" alt="Sports – TV">
+
+**Library · Watchlist & history – TV**  
+<img src="mockups/v2/planned/library.png" width="640" alt="Library · Watchlist & history – TV">
+
+**Settings · Free UK channels – TV**  
+<img src="mockups/v2/planned/settings-free-uk.png" width="640" alt="Settings · Free UK channels – TV">
+
+**Catch-up – Phone**  
+<img src="mockups/v2/planned/catchup-phone.png" width="220" alt="Catch-up – Phone">
+
+**Search – Phone**  
+<img src="mockups/v2/planned/search-phone.png" width="220" alt="Search – Phone">
+
+**Torrents (revisit later) – TV**  
+<img src="mockups/v2/planned/torrents.png" width="640" alt="Torrents (revisit later) – TV">
+
+## V1 mockups
+
+The original signed-off designs, kept for reference.
+
 ## Home
 
 **Home – TV**  
